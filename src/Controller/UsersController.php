@@ -124,7 +124,7 @@ class UsersController extends AppController
         if ($result->isValid()) {
             // redirect to /articles after login success
             $redirect = $this->request->getQuery('redirect', [
-                'controller' => 'Articles',
+                'controller' => 'Contacts',
                 'action' => 'index',
             ]);
     
@@ -132,7 +132,7 @@ class UsersController extends AppController
         }
         // display error if user submitted and authentication failed
         if ($this->request->is('post') && !$result->isValid()) {
-            $this->Flash->error(__('Invalid username or password'));
+            $this->Flash->error(__('Usuario o Contraseña Inválida'));
         }
     }
     

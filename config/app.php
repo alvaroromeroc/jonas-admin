@@ -276,9 +276,9 @@ return [
             'timezone' => 'UTC',
 
             'host' => 'localhost',
-            'username' => 'porticos_fire',
-            'password' => 'vF37co3m8',
-            'database' => 'porticos_fire',
+            'username' => 'jonas_fire',
+            'password' => '1PDs1wk3',
+            'database' => 'jonas_fire',
             /**
              * For MariaDB/MySQL the internal default changed from utf8 to utf8mb4, aka full utf-8 support, in CakePHP 3.6
              */

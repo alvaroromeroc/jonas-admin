@@ -43,7 +43,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <a href="/"><img src="http://www.cjonas.cl/sitio/wp-content/uploads/2019/12/logo_2020.jpg" width="150px"></a>
         </div>
         <div class="top-nav-links">
-            <a href="/admin/users/logout">Cerrar Sesión</a>
+            <a href="/~jonas/users/logout">Cerrar Sesión</a>
         </div>
     </nav>
     <main class="main">
